@@ -1,0 +1,31 @@
+body{
+    font-size: 16px;
+    font-family: verdana, sans-serif;
+}
+
+.navbar{
+    font-size: 0.875em;
+}
+
+.nav{
+    background-color: black;
+}
+
+.herobg{
+    background: url(images/header.jpg);
+    background-size: cover;
+}
+
+.herobg h1{
+    float: left;
+    color: white;
+    width: 390px;
+    font-size: 7.12em;
+    letter-spacing: -10px;
+    font-weight: 800;
+    line-height: 90%;
+    margin-top: 340px;
+    text-align: right;
+    padding-bottom: 20%;
+    
+}
