@@ -10,12 +10,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+ 
       <link rel="stylesheet" href="https://use.typekit.net/orx4gxu.css">
       <link rel="stylesheet" href="style.css" />
       
@@ -24,32 +19,57 @@
   </head>
   <body>
       <header class="container-fluid herobg">
-      <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+
+      <nav class="navbar navbar-inverse container-fluid navedge">
+          
+  <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        
+<!--      <a class="navbar-brand" href="#">WebSiteName</a>-->
+        <img class="logo" src="images/logo.jpg">
+        
     </div>
-    <ul class="nav navbar-nav navbar-right">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Visit</a></li>
-      <li><a href="#">What's new</a></li>
-      <li><a href="#">Support</a></li>
-    </ul>
+      
+      
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="visit.html">Visit</a></li>
+        <li><a href="#">What's new</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+     
+    </div>
   </div>
 </nav>
-      
 
       
     <div class="container">
-    
-    
+        <div class="row">
+        <div class="col-md-6">
+            
+            
         <h1> Batavia Shipwreck Gallery </h1>
-        
-    
-    </div>
+        <img class="blood" src="images/blood.png">
+   </div> <!--col-->
+            
+               <div class="col-md-6"> 
+                   
+               </div> <!--col-->
+
+                        
+            </div><!--row-->
+    </div><!--containter-->
       
       </header>
+      
+  
       
 <!--      NEW SECTION-->
       
@@ -58,16 +78,28 @@
       <div class="container">
           
           
-          <h2> Gallery </h2>
+          
+         
+          
+          <div class="col-md-6 text-center">
+              <h2> Gallery </h2>
+          
           <p class="tickets"> Tickets are now on sale for our upcoming exhibition on the Batavia Shipwreck of 1929
 Opens 23 April. 
           <p class="tickets">Tickets $10 </p>
 <p class="tickets">Members/under 16s free. </p>
-          
- 
+              
+              <img class="img-responsive book" src="images/book%20now.JPG">
+              
+                </div>
+       
+              <div class="col-md-6">
+              <img class="img-responsive" src="images/gallery.JPG">
+              
+            
           
           </div>
-      
+       </div>
       
       </section>
   
@@ -76,24 +108,34 @@ Opens 23 April.
       
       
       
-      <section class="container-fluid">
+      <section class="container-fluid bottom">
       <div class="container">
-          <div class="row">
-          <div>
+        
+              
+          
               <h3>What's on WA Shipwrecks</h3>
               
-              </div>
+             
+<!--          div class row ending-->
+          
+          
+          <div class="col-md-6">
+        <img class="img-responsive" src="images/tours.jpg">
               
-              <p>Make the most of your visit to the WA Shipwrecks Museum with a free tour.
+          </div>
+          
+              
+          <div class="col-md-6">
+              <p class="tour">Make the most of your visit to the WA Shipwrecks Museum with a free tour.</p>
 
-Bookings are essential and can be made by calling 1300 134 081 or emailing reception@museum.wa.gov.au
+<p class="tour">Bookings are essential and can be made by calling 1300 134 081 or emailing reception@museum.wa.gov.au </p>
 
-Site accessibility information can be found on the main WA Shipwrecks Museum page.</p>
+<p class="tour">Site accessibility information can be found on the main WA Shipwrecks Museum page.</p>
+             
               
               <h4>School trips and tours</h4>
               
-          </div> 
-<!--          div class row ending-->
+          </div>
           
           </div>
 <!--          container ending -->
@@ -101,11 +143,17 @@ Site accessibility information can be found on the main WA Shipwrecks Museum pag
       </section>
       
       
+   
+<!--      FOOOTERRR SECTION-->
+      
+      
+      
+      
       <footer class="container-fluid">
       
-          <div class="container">
+          <div class="footer">
           
-          
+          <img class="img-responsive footer" src="images/footer.JPG">
           
           
           </div>
