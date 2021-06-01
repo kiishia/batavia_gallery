@@ -1,20 +1,66 @@
+/*   
+Theme Name: Batavia Gallery
+Theme URI: http://batavia.com
+Description: A style-free theme to get you started on an HTML5-based Wordpress theme of your own.
+Author: Me
+Author URI: http://batavia.com
+Version: 1
+*/ 
+
+
 body{
     font-size: 16px;
     font-family: verdana, sans-serif;
+}
+
+.logo{
+    width: 15%;
+    margin: none;
+    padding: none;
 }
 
 .navbar{
     font-size: 0.875em;
 }
 
+
+
 .nav{
     background-color: black;
+}
+.navbar-inverse {
+    background-color: #000;
+    /* border-color: #080808; */
+}
+.navedge{
+    padding-right:0px !important;
+    padding-left:0px !important;
+    
 }
 
 .herobg{
     background: url(images/header.jpg);
     background-size: cover;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 30%;
+    padding-top: -300px;
+    width: 100%;
+    max-height: inherit;
+
 }
+
+/*
+.boat{
+    width: 200%;
+    height: 50%;
+    
+
+}
+*/
+
+
+
 
 .herobg h1{
     
@@ -22,25 +68,57 @@ body{
     float: left;
     color: white;
     width: 390px;
-    font-size: 7.12em;
+    font-size: 9.12em;
     letter-spacing: -10px;
     font-weight: 800;
     line-height: 80%;
-    margin-top: 340px;
     text-align: right;
-    padding-bottom: 20%;
-}
+    padding-top: 100px;
+    padding-right: 30px;
     
+}
+  
+.blood{
+    
+        margin-top: -170%;
+    position: relative;
+  left: 40px;
+    top: 570px;
 
+}
+
+
+}
+/*
 .herobg h1{
     background: url(images/blood.png);
     background-position: right;
    
     }
+*/
 
 .aboutbg{
     background-color: black;
+    padding-bottom: 10%;
 
+}
+
+h2 {
+color: #999999;
+font-family: arial, sans-serif;
+font-size: 16px;
+font-weight: bold;
+margin-top: 0px;
+margin-bottom: 1px;
+}
+
+.book{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+    padding-top: 5%;
+    padding-bottom: 10%;
 }
 
 .aboutbg h2{
@@ -48,29 +126,252 @@ body{
     font-family: usual, sans-serif;
     color: white;
     font-weight: 800;
-    padding-bottom: 20%;
-    text-align: left;
+    padding-bottom: 7%;
+/*    text-align: left;*/
 }
 
 .tickets{
-    text-align: left;
+    text-align: center;
     color: white;
     font-size: 1.4em;
     font-family: usual, sans-serif;
+/*
     width: 390px;
     margin-top: -200px;
     padding-bottom: 20%;
+*/
 }
 
+/*
 div.container{
     padding:100px;
     margin: 10px;
 }
+*/
 
 .aboutbg{
-    background: url(images/gallery.JPG);
-    padding:-10px;
-    background-repeat: no-repeat;
-    background-position: right;
+
     background-color: black;
+}
+.bottom{
+    background-color: black;
+    padding-bottom: 5%;
+}
+
+.bottom h3{
+    font-size: 2.4em;
+    font-family: usual, sans-serif;
+    color: white;
+    font-weight: 800;
+    padding-bottom: 5%;
+    padding-top: 10%
+    
+}
+
+
+.tour{
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    font-family: usual, sans-serif;
+    padding-bottom: 2%;
+
+}
+
+.bottom h4{
+    font-size: 1.8em;
+    font-family: usual, sans-serif;
+    color: white;
+    font-weight: 800;
+    padding-top: -10%;
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #F7F7F7;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+
+/*---------------------------about-----------------------------*/
+.headerbg{
+    background-color: black;
+    background-image: url(images/about_one.jpg);
+     
+}
+
+.buy{
+  
+  padding: 20px;
+  width: 150px;
+    float: left;
+    
+}
+
+.heading{
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    
+}
+
+.ticket{
+    
+   width:700px;
+    border-bottom:1px;
+    border-color: white;
+    border-bottom-style: solid;
+    height: 80px;
+   
+}
+.ticketp{
+    float: right;
+    color: white;
+    margin-top: 33px;
+    margin-right: 100px;
+    font-family: usual, sans-serif;
+    font-size: 20px;
+
+}
+
+
+.about{
+    
+    padding-bottom: 5%;
+}
+
+.aboutheading{
+    font-family: usual, sans-serif;
+    color: white;
+    font-size: 7.12em;
+    letter-spacing: -5px;
+    font-weight: 800;
+    line-height: 80%;
+    margin-top: 10%;
+    padding-bottom:-10%;
+    text-align: left;
+    
+}
+
+.aboutheadingtwo{
+    font-family: usual, sans-serif;
+    color: white;
+    font-size: 7.12em;
+    letter-spacing: -5px;
+    font-weight: 800;
+    padding-bottom:10%;
+    line-height: 96%;
+    text-align: left;
+}
+
+.exhibition{
+    text-align: left;
+    color: white;
+    font-size: 1.4em;
+    font-family: usual, sans-serif;
+}
+
+.youtube{
+    display: block;
+    margin: auto;
+  max-width: 100%;
+  
+}
+
+/*------------------------------------------VISIT PAGE---------------------------------------------------*/
+
+/*
+.bodybackground {
+    background-image: url(images/background%20visit.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 500px;
+}
+*/
+
+
+ .background{
+    background-image: url(images/background%20visit.JPG);
+    background-size: cover;
+     max-width: 100%;
+} 
+
+.bookatour{
+    padding: 20px;
+  width: 150px;
+    float: left;
+    max-width: 100%;
+}
+
+.visitm{
+    text-align: left;
+    color: white;
+    font-size: 1.7em;
+    font-family: usual, sans-serif;
+    padding-bottom: 30px;
+    
+}
+
+/*
+.visitbottom{
+    background-color: black;
+    padding-bottom: -5%;
+}
+*/
+
+.visitbottom h3{
+    font-size: 2.4em;
+    font-family: usual, sans-serif;
+    color: white;
+    font-weight: 800;
+    padding-bottom: 5%;
+    padding-top: 10%
+    
+}
+
+
+/*TESTING---------------------------------------------------------------------*/
+
+.rows {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+    margin-left: 23%;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/*TESTING---------------------------------------------------------------------*/
+
+.grow{
+    text-align: left;
+    color: white;
+    font-size: 1.7em;
+    font-family: usual, sans-serif;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    
+}
+
+
+
+@media only screen and (max-width: 970px) {
+.herobg{
+background-position: center center;
+
+}
 }
