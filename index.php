@@ -61,39 +61,17 @@ wp_reset_query();?>
              
 <!--          div class row ending-->
           
-          
-<!--
-          <div class="col-md-6">
-        <img class="img-responsive" src="images/tours.jpg">
+        
               
-          </div>
-          
-              
-          <div class="col-md-6">
-              <p class="tour">Make the most of your visit to the WA Shipwrecks Museum with a free tour.</p>
-
-<p class="tour">Bookings are essential and can be made by calling 1300 134 081 or emailing reception@museum.wa.gov.au </p>
-
-<p class="tour">Site accessibility information can be found on the main WA Shipwrecks Museum page.</p>
-             
-              
-              <h4>School trips and tours</h4>
-              
-          </div>
-
-
--->
-          
 <?php $post_id = 5357;
 $queried_post = get_post($post_id);?>
 <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
 <h4><?php echo $queried_post->post_title; ?></h4>
 <?php echo $queried_post->post_excerpt; ?>
-<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>                       
-   
-          
-          
-          
+<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>
+
+
+
           
           </div>
 <!--          container ending -->
