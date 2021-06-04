@@ -7,12 +7,30 @@
          
           
           <div class="col-md-6 text-center">
-              <h2> Gallery </h2>
-          
-          <p class="tickets"> Tickets are now on sale for our upcoming exhibition on the Batavia Shipwreck of 1929
-Opens 23 April. 
-          <p class="tickets">Tickets $10 </p>
-<p class="tickets">Members/under 16s free. </p>
+<?php get_header(); /* Tells WordPress to include header.php */ ?>
+     <section class="container-fluid aboutbg text-center">
+        <div class="container">
+            
+        
+<?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=10');//look for posts that have the category of 2
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
+?>
+<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2> 
+            <div><p class="about-text"><?php the_content() ?></p></div>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>    
+    	
+ <div class="blocker"></div>
+            
+      </div><!--  container-->
+    </section>
+
               
               <img class="img-responsive book" src="images/book%20now.JPG">
               
