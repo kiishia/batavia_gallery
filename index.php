@@ -62,6 +62,7 @@ wp_reset_query();?>
 <!--          div class row ending-->
           
           
+<!--
           <div class="col-md-6">
         <img class="img-responsive" src="images/tours.jpg">
               
@@ -79,6 +80,20 @@ wp_reset_query();?>
               <h4>School trips and tours</h4>
               
           </div>
+
+
+-->
+          
+<?php $post_id = 5357;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>                       
+   
+          
+          
+          
           
           </div>
 <!--          container ending -->
