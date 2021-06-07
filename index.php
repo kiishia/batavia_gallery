@@ -88,7 +88,7 @@ wp_reset_query();?>
 $queried_post = get_post($post_id);?>
 <?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
 <h4><?php echo $queried_post->post_title; ?></h4>
-<?php echo $queried_post->post_excerpt; ?>
+          <p class="tour"><?php echo $queried_post->post_excerpt; ?></p>
 <?php echo '<a class="readmore" href="'.get_permalink($queried_post).'"><br>CONTINUE READING</a>';?>                       
    
           
