@@ -39,7 +39,7 @@ body{
 }
 
 .herobg{
-    background: url(images/header.jpg);
+    background-image: url(images/header.jpg);
     background-size: cover;
     padding-left: 0px;
     padding-right: 0px;
@@ -49,6 +49,13 @@ body{
     max-height: inherit;
 
 }
+.small_herobg{
+    background: url(images/background%20visit.JPG);
+    height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+   
 
 /*
 .boat{
@@ -58,9 +65,6 @@ body{
 
 }
 */
-
-
-
 
 .herobg h1{
     
