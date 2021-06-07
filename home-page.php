@@ -7,7 +7,7 @@
       
       <div class="container">
           
-          
+         <h2><?php the_field('titleforaboutme'); ?></h2><!--  custom field for the aboutme content-->   
           
          
           
@@ -37,7 +37,6 @@ wp_reset_query();?>
     </section>
 
               
-<!--
               <img class="img-responsive book" src="images/book%20now.JPG">
               
                 </div>
@@ -45,7 +44,6 @@ wp_reset_query();?>
               <div class="col-md-6">
               <img class="img-responsive" src="images/gallery.JPG">
               
--->
             
           
           </div>
