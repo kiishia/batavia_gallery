@@ -60,14 +60,16 @@
       
       
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="visit.html">Visit</a></li>
-        <li><a href="#">What's new</a></li>
-        <li><a href="#">Support</a></li>
-      </ul>
-     
+      <ul class="nav navbar-nav navbar-right">
+  <?php wp_nav_menu(array(
+        'menu' => 'Top menu',
+        'items_wrap'=>'%3$s',
+        'container' => false,
+        'list_item_class' => "nav-item",
+        'link_class' => "nav-link",
+        )); ?>
+</ul>
+
     </div>
   </div>
 </nav>
